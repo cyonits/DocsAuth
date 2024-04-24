@@ -1,0 +1,16 @@
+server:
+  port: 8765
+
+spring:
+  security:
+    user:
+      name: user
+      password: 1234
+
+springdoc:
+  default-consumes-media-type: application/json;charset=UTF-8
+  default-produces-media-type: application/json;charset=UTF-8
+  swagger-ui:
+    url: /docs/derma-docs.json
+    path: /docs/swagger
+    query-config-enabled: true
